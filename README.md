@@ -1,6 +1,6 @@
-#**_Live Weather Station_**
-####**Student Name:** Bernard Thompson
-####**Student Number:** 20020038
+#**_Live Weather Station_**<br /><br />
+####**Student Name:** Bernard Thompson<br />
+####**Student Number:** 20020038<br />
 
 ####_Introduction_<br />
 My aim is to develop a live weather station application which will alert devices of weather conditions and will inform a subscriber if they need to take action due to weather conditions. A raspberry pi will be used in conjunction with a Sense Hat in order to obtain temperature, humidity and air pressure. Based on these results I will also try to calculate the dew point. If time and budget allows me I would also like to acquire an anemometer to record wind speed.<br />
