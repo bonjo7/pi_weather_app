@@ -1,4 +1,4 @@
-Live Weather Application
-Student Name: Bernard Thompson
-Student Number: 20020038
+#Live Weather Application
+#Student Name: Bernard Thompson
+#Student Number: 20020038
 
