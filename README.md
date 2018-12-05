@@ -1,21 +1,66 @@
-#**_Live Weather Station_**<br /><br />
-####**Student Name:** Bernard Thompson<br />
-####**Student Number:** 20020038<br />
+# [Start Bootstrap - Shop Homepage](https://startbootstrap.com/template-overviews/shop-homepage/)
 
-####_Introduction_<br />
-My aim is to develop a live weather station application which will alert devices of weather conditions and will inform a subscriber if they need to take action due to weather conditions. A raspberry pi will be used in conjunction with a Sense Hat in order to obtain temperature, humidity and air pressure. Based on these results I will also try to calculate the dew point. If time and budget allows me I would also like to acquire an anemometer to record wind speed.<br />
-Once the data above is gathered through the Sense Hat sensors, the results will be displayed live to a website which I hope to create, displaying a widget for each segment of data, while also displaying some graphs to track past records.
-The pi will also be scanning the home network for connected devices (mobile phones), if the pi detects these devices on the network it will tweet the owner of the device telling them to perform an action based on the weather results, get the snow boots ready, turn the heating on, tie down the trampoline or bust out the sun cream! Something along those lines. I will also try to display a sun or a snowflake on the Sense Hat display depending if it is hot or cold.<br /><br />
+[Shop Homepage](http://startbootstrap.com/template-overviews/shop-homepage/) is a basic HTML online store homepage template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-####_Tools, Technologies and Equipment_<br />
-Hardware: Raspberry Pi, Sense Hat, anemometer (hopefully), android phone(s), Wi-Fi router.<br />
-Software: For the programming side of things I am torn between java and Python. I think I will use python as it is new to me and I may develop a better understanding of the language. I will also hope to use HTML, and CSS (possibly in the form of a bootstrap) for the website. Wia will be used to display the widgets and I am also hoping to use Blynk for mobile viewing.<br />
-In order to interact with the android devices, I will use MQTT (although this is subject to change as I will need to revisit the labs again.)<br /><br />
+## Preview
 
-####_Project Repository_ <br />
-In order to store my project code, read me file and video demonstration I will use GitHub and it will be available at the following location<br /><br />
-[Pi Weather Station](https://github.com/bonjo7/pi_weather_app_ <br /><br />
+[![Shop Homepage Preview](https://startbootstrap.com/assets/img/templates/shop-homepage.jpg)](https://blackrockdigital.github.io/startbootstrap-shop-homepage/)
 
-That about covers my scope, I hope I haven’t bitten off more than I can chew, I guess I’ll find out in a few weeks!
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-shop-homepage/)**
 
+## Status
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-shop-homepage/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-shop-homepage.svg)](https://www.npmjs.com/package/startbootstrap-shop-homepage)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-shop-homepage.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-shop-homepage)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-shop-homepage/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-shop-homepage)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-shop-homepage/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-shop-homepage?type=dev)
+
+## Download and Installation
+
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/shop-homepage/)
+* Install via npm: `npm i startbootstrap-shop-homepage`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-shop-homepage.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-shop-homepage)
+
+## Usage
+
+### Basic Usage
+
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+
+### Advanced Usage
+
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+
+You must have npm and Gulp installed globally on your machine in order to use these features.
+
+## Troubleshooting and Help
+
+Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+
+**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-shop-homepage/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/shop-homepage/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/gh-pages/LICENSE) license.
