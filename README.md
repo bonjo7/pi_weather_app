@@ -42,6 +42,7 @@ To calculate the dew point I used the following formula https://www.ajdesigner.c
 
 I had an issue when connected via ssh, the scripts would run but once I disconnected the scripts would then stop. I found the following commands via 
 a tutorial which allowed me to run the scripts in screens, so when I disconnect via ssh they would still run.
+This also allows me to run both a python script and a nodejs file together.
 
 #### Install screen
 sudo apt-get install screen
