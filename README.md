@@ -45,8 +45,8 @@ a tutorial which allowed me to run the scripts in screens, so when I disconnect 
 #### Install screen
 sudo apt-get install screen
 #### Run Script
-screen python wiaSenseHat.py &
-screen node index.js
+screen python wiaSenseHat.py & </br>
+screen node index.js &
 #### List Screens
 screen -list
 #### Enter a screen and stop script if required
