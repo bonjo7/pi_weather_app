@@ -52,3 +52,32 @@ screen node index.js &
 screen -list
 #### Enter a screen and stop script if required
 screen -r <screen id>
+  
+##Run the scripts
+In order to run the node js script first ensure node is installed first. 
+The type the following commands
+
+####Check if Node is already on the pi. If so,you are adviced to remove it and reinstall as follows:
+sudo apt-get purge node nodejs node.js -y
+sudo apt-get autoremove
+
+####Update package repository and install node:
+curl -sL "https://deb.nodesource.com/setup_6.x" | sudo -E bash -
+sudo apt-get install build-essential nodejs -y
+sudo apt-get install npm
+
+####Naviagte to the folder location where the project is saved
+npm init
+sudo npm install blynk-library --save
+sudo npm install onoff ---save
+
+####Install snese hat
+npm install node-sense-hat --save
+
+##Run the python script
+TO ensure the Arp scan works we need to install arp-scan onto your device, enter the following commands
+sudo apt-get update
+sudo apt-get install arp-scan
+
+Next we need to install WIA
+pip install wia  
