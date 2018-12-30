@@ -4,6 +4,7 @@
 ### Assignment: Assignment 2, iot Project.
 ### Project Name: Pi Weather Station
 ### Git Repo: [Git Repo](https://github.com/bonjo7/pi_weather_app)
+### Youtube video: [Video](https://www.youtube.com/watch?v=-ApTRzOWjRs)
 
 ## Introduction
 For this project I used the raspberry pi with a sense hat. The on-board sensors were used to gather the
