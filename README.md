@@ -42,12 +42,12 @@ To calculate the dew point I used the following formula https://www.ajdesigner.c
 I had an issue when connected via ssh, the scripts would run but once I disconnected the scripts would then stop. I found the following commands via 
 a tutorial which allowed me to run the scripts in screens, so when I disconnect via ssh they would still run.
 
-# Install screen
+#### Install screen
 sudo apt-get install screen
-# Run Script
+#### Run Script
 screen python wiaSenseHat.py &
 screen node index.js
-# List Screens
+#### List Screens
 screen -list
-# Enter a screen and stop script if required
+#### Enter a screen and stop script if required
 screen -r <screen id>
